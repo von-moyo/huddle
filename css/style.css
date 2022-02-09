@@ -262,7 +262,7 @@ body
     .bod1
     {
         width: 20%;
-        margin-left: 20%;
+        margin-left: 10%;
     }
 }
 
@@ -303,20 +303,20 @@ body
     }   
     .bod1head
     {
-        font-size: 55px;
+        font-size: 52px;
         max-width: 90%;
         text-align: center;
     } 
     .boddesc
     {
-        font-size: 32px;
+        font-size: 29px;
         max-width: 87%;
         text-align: center;
         margin-top: 5px;
     }
     .bod1button
     {
-        font-size: 25px;
+        font-size: 22px;
         padding: 24px 120px;
         margin-bottom: 170px;
     }
@@ -351,11 +351,11 @@ body
     }
     .box2text-head
     {
-        font-size: 35px;
+        font-size: 32px;
     }
     .box2text-desc
     {
-        font-size: 28px;
+        font-size: 25px;
         width: 100%;
     }
     #box3
@@ -381,7 +381,7 @@ body
     }
     .box5head
     {
-        font-size: 34px;
+        font-size: 31px;
     }
     #box5button
     {
@@ -408,7 +408,7 @@ body
     }
     .location-desc
     {
-        font-size: 35px;
+        font-size: 32px;
     }
     .box6location{
         width: 100%;
@@ -420,11 +420,11 @@ body
     }
     .call-desc
     {
-        font-size: 28px;
+        font-size: 25px;
     }
     .tag
     {
-        font-size: 31px;
+        font-size: 28px;
     }
     .box6tags1
     {
@@ -449,7 +449,7 @@ body
     .footer
     {
         text-align: center;
-        font-size: 20px;
+        font-size: 17px;
         margin-right: 0;
     }
 }
@@ -468,5 +468,70 @@ body
         font-size: 16px;
         padding: 25px 50px;
         margin-top: 50px;
+    }
+}
+
+@media (max-width:450px) 
+{
+    .box1
+    {
+        height: 135vh;
+    }
+    .bod1head
+    {
+        font-size: 37px;
+        line-height: normal;
+    }    
+    .hbutton
+    {
+        padding: 17px 25px;
+    }
+    .boddesc
+    {
+        font-size: 23px;
+    }
+    .headbar
+    {
+        padding-bottom: 20;
+    }
+    .bod1button
+    {
+        margin-bottom: 50px;
+        padding: 18px 50px;       
+    }
+    .box2
+    {
+        margin-top: 50px;
+    }
+    #box4
+    {
+        margin-bottom: 0;
+    }
+    .box5
+    {
+        padding: 20px 0;
+        width: 85%;
+    }
+    .box5head
+    {
+        font-size: 26px;
+    }
+    #box5button
+    {
+        padding: 20px 50px;
+        margin-top: 20px;
+    }
+    .box6
+    {
+        padding-top: 150px;
+    }
+    .logo1
+    {
+        width: 200px;
+    }
+    .location-desc
+    {
+        font-size: 22px;
+        width: 90%;
     }
 }
